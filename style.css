@@ -1,0 +1,62 @@
+body{background-color: mediumaquamarine;}
+
+.titulo{
+    font-size: 3em;
+    font-family: initial;
+    color: blueviolet;}
+.subtitulo{
+    font-size: 1.5em;
+    font-family: sans-serif;
+    color: darkblue;}
+    
+.textoalt {
+    font-size: x-small;
+    font-family: sans-serif;
+    color: darkblue;}
+
+
+.container {display: flex;
+flex-direction: column;}
+.container section {display: flex;
+flex-direction: column;
+align-items: center;}
+
+.preguntas section{
+    border:2px solid #0bb052;
+    border-radius: 7px;
+    padding: 10px;
+    margin: 10px 0;}
+
+    label{
+        display: block;
+        padding: 7px;
+        border-radius: 7px;
+        cursor: pointer;
+        border: 1px dashed#ccc;
+        margin-bottom: 3px;
+    }
+    label:hover{
+        background: greenyellow;
+    }
+
+    button{
+        width: 90%;
+        display: block;
+        margin: auto;
+        padding: 10px;
+        font-size: 25px;
+
+        background-color: chartreuse;
+        border: none;
+        cursor: pointer;
+        border-radius: 20px;
+    }
+
+    h2{
+        text-align: center;
+    }
+
+    #resultado{
+        font-size: 30px;
+        color: blue;
+    }
